@@ -38,31 +38,34 @@ header{
     text-align: center;
     min-width: 150px;
     padding: 30px;
-    
-
 }
 
 header > h1{
     color: white;
     font: var(--font-destaque);
     font-size: 3em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p{
     max-width: 600px;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 nav{
-    margin-top: 1px;
-    background-color: var(--cor4);
+    background-color:var(--cor3);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgb(0, 0, 40);
+    box-shadow: 0px 7px 7px rgba(23, 23, 26, 0.279);
 }
 
 nav a{
-    color: white;
+    color: rgb(251, 251, 251);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
